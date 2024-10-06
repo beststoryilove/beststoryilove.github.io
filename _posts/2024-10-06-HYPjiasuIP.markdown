@@ -13,7 +13,7 @@ tags:
 > “使用了加速IP直接combo老外”
 
 
-本篇整理了全网综合延迟/丢包率都还不错的Hypixel加速IP，温馨提示，本篇所有资源均来源于网络，若侵权请通过邮箱[3570522422@qq.com](eamil:3570522422@qq.com)告知，我们将在24小时内删除侵权内容。
+本篇整理了全网综合延迟/丢包率都还不错的Hypixel加速IP，温馨提示，本篇所有资源均来源于网络，若侵权请通过邮箱[xnpys@xnpyx.us.kg](eamil:xnpys@xnpyx.us.kg)告知，我们将在24小时内删除侵权内容。
 
 
 <p id = "build"></p>
@@ -74,6 +74,6 @@ LSPM公益加速IP：<br>
 
 1.延迟数据仅为本人测试结果，实际加速效果很可能会与理想情况有所差异；<br>
 2.所有延迟测试数据来源 by[@爱吃饭的小牛皮PC](https://space.bilibili.com/1086388621?spm_id_from=333.1007.0.0)，线路ip来源 by[jsip.club](https://www.jsip.club/line)；<br>
-2.本篇所有资源均来源于网络，若侵权请通过邮箱[3570522422@qq.com](eamil:3570522422@qq.com)告知，我们将在24小时内删除侵权内容。
+2.本篇所有资源均来源于网络，若侵权请通过邮箱[xnpys@xnpyx.us.kg](eamil:xnpys@xnpyx.us.kg)告知，我们将在24小时内删除侵权内容。
 ---
 ——by [@爱吃饭的小牛皮PC](https://space.bilibili.com/1086388621?spm_id_from=333.1007.0.0)

@@ -20,7 +20,7 @@ tags:
 ## 博主强烈推荐机场节点
 
 1.博主入手的第一个机场,[wgetcloud]<br>
-[点我注册可享新人85折优惠](https://invite.wgetcloud.ltd/auth/register?code=HqZkRS);
+[点我注册可享新人85折优惠](https://invite.wgetcloud.ltd/auth/register?code=HqZkRS);<br>
 2.[疾风云机场],晚高峰完全可以稳定youtube4k视频10wk<br>
 [点我注册可享新人8折优惠](https://homes.tr25.cn?code=4AuT)
 

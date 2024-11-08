@@ -1,11 +1,11 @@
 # Site settings
-title: 小牛皮博客
-SEOTitle: 小牛皮博客 | xnp-boke
+title: 809blog | 分享美好生活
+SEOTitle: 809blog | 分享美好生活
 header-img: img/home-bg.jpg
-email: 3570522522@qq.com
-description: "这里是 @爱吃饭的小牛皮PC 的个人博客，与你一起发现更大的世界 | 专注科技分享/发现实用干货"
-keyword: "爱吃饭的小牛皮PC UP主 哔哩哔哩 Minecraft mc PVP"
-url: "https://huangxuan.me" # your host, for absolute URL
+email: xnpyx@xnpyx.us.kg
+description: "这里是809班的班级博客，与你一起，发现更广阔的世界！"
+keyword: "809 blog"
+url: "https://809blog.us.kg" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -74,7 +74,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "专注科技分享/发现实用干货 <br> 内容所有 by@爱吃饭的小牛皮PC <br> 原作者相关链接："
+sidebar-about-description: "这里是809班的班级博客，与你一起，发现更广阔的世界！"
 sidebar-avatar: /img/Lava_Bucket_JE2_BE2.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags

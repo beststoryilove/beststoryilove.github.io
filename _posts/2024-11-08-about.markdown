@@ -1,0 +1,33 @@
+---
+layout:     post
+title:      "相关事宜"
+author:     "admin-lyc"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 809
+    - blog
+    - about
+---
+
+> “这里是809班的班级博客，与你一起，发现更广阔的世界！”
+
+## 温馨提示
+
+<p>本博客所有管理权在本人，班主任/科任老师拥有admin的所有权利，但由于github的限制，所有内容将以admin-lyc的名义发表</p>
+
+<p>本博客将在每一届的学生毕业后由原班主任转将博客交至下一位教809班的班主任（如果这位老师又是809班的班主任，即在709开始），同上文，若您是新交接的班主任/科任老师，请通过邮箱与我联系（请将正文内容一并发过来）
+  
+<p>我的邮箱：(1)3570522422@qq.com(主邮箱）</p>
+
+<p>备用邮箱：(1)xnpys@xnpyx.us.kg;(2)xnpyx@xnpyx.us.kg</p>
+
+## 致谢
+
+<p>本博客仅用于809班使用且非盈利，使用github pages搭建，模板使用<黄玄博客></huangxuan.me>，域名使用<nic.us.kg免费申请的二级域名></nic.us.kg></p>
+
+<p id = "build"></p>
+
+## 署名
+
+——by [admin-lyc（邮箱联系）](xnpys@xnoyx.us.kg)

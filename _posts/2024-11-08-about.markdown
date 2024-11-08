@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "相关事宜"
-author:     "admin-lyc"
+author:     "admin-lyc（邮箱联系）"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
@@ -24,10 +24,10 @@ tags:
 
 ## 致谢
 
-<p>本博客仅用于809班使用且非盈利，使用github pages搭建，模板使用[huangxuan.me](huangxuan.me)，域名使用[nic.us.kg](nic.us.kg)</p>
+<p>本博客仅用于809班使用且非盈利，使用github pages搭建，模板使用huangxuan.me，域名使用nic.us.kgnic.us.kg</p>
 
 <p id = "build"></p>
 
 ## 署名</p>
 
-<p>——by [admin-lyc（邮箱联系）](xnpys@xnoyx.us.kg)</p>
+<p>——by admin-lyc（邮箱联系）</p>

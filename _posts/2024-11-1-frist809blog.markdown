@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "你好世界！你好博客！"
+author:     "admin-lyc"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 809
+    - blog
+    - frist
+---
+
+> “这里是809班的班级博客，与你一起，发现更广阔的世界！”
+
+
+相关事宜请查看about
+
+
+<p id = "build"></p>
+
+## 署名
+
+——by [admin-lyc（邮箱联系）](xnpys@xnoyx.us.kg)

@@ -75,7 +75,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "这里是809班的班级博客，与你一起，发现更广阔的世界！"
-sidebar-avatar: /img/u=3810755577,3802575188&fm=253&gp=0.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/th40y-3o41z.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags

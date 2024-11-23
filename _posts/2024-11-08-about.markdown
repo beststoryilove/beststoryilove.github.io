@@ -24,7 +24,7 @@ tags:
 
 ## 致谢
 
-<p>本博客仅用于809班使用且非盈利，使用github pages搭建，模板使用huangxuan.me，域名使用nic.us.kgnic.us.kg</p>
+<p>本博客仅用于809班使用且非盈利，使用github pages搭建，模板使用huangxuan.me，域名使用nic.us.kg</p>
 
 <p id = "build"></p>
 

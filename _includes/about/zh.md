@@ -55,3 +55,14 @@ Hey，我是黄玄（a.k.a. Hux, _@huxpro_），一个略懂计算机科学与�
 [17]: https://www.zhihu.com/zvideo/1542577108190068737?page=ogv
 [18]: https://segmentfault.com/a/1190000043208486
 [19]: https://juejin.cn/post/6844903750155419655
+
+## 809blog部分
+
+<p>1.本博客以HuxBlog为模板，采用PWA，因此，当出现发布新东西而你看不到的情况下，请尝试点击右下角的刷新按钮（就是那个弹出来的APP开头的提示）</p>
+
+<p>2.所有上传到网盘的文件分享链接将总结在此处：</p>
+
+[实用小工具（密码：7ws6）]:https://809blog.lanzoue.com/b00wm4xcfa
+[投稿壁纸推荐（电脑）（密码:2r77）]:https://809blog.lanzoue.com/b00wm4xcgb
+[投稿壁纸推荐（手机）（密码:azf8）]:https://809blog.lanzoue.com/b00wm4xchc
+[作文投稿（密码:1ded)]:https://809blog.lanzoue.com/b00wm4xcje

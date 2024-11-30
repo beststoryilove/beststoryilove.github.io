@@ -36,3 +36,16 @@ I studied BA, Digital Media Art at [Communication University of China](https://e
 [10]: https://reactnative.dev/blog/2021/10/26/toward-hermes-being-the-default
 [11]: https://youtu.be/lGEMwh32soc
 [12]: https://reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022.html
+
+##809blog section
+
+<p>1. This blog is based on HuxBlog as a template and uses a PWA, so when something new is posted and you can't see it, try hitting the refresh button in the bottom right corner(That's the prompt that pops up)</p>
+
+<p>2. All file sharing links uploaded to the network disk will be summarized here:</p>
+
+- [Utilities](https://809blog.lanzoue.com/b00wm4xcfa)(Passcode: 7ws6)
+- [Recommended wallpapers (computer)](https://809blog.lanzoue.com/b00wm4xcgb)(Passcode：2r77)
+- [Submit wallpaper recommendations (mobile)](https://809blog.lanzoue.com/b00wm4xchc)(Passcode：azf8)
+- [Essay submission](https://809blog.lanzoue.com/b00wm4xcje)(Passcode：1ded)
+
+<p>Tips: All English translations of "809blog part" use Microsoft Translator, which may be different from the original text (if your native language is Chinese, please try to use Chinese access, you can switch in the upper left corner of this page)</p>

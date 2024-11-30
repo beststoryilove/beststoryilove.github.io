@@ -37,7 +37,7 @@ I studied BA, Digital Media Art at [Communication University of China](https://e
 [11]: https://youtu.be/lGEMwh32soc
 [12]: https://reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022.html
 
-##809blog section
+## 809blog section
 
 <p>1. This blog is based on HuxBlog as a template and uses a PWA, so when something new is posted and you can't see it, try hitting the refresh button in the bottom right corner(That's the prompt that pops up)</p>
 

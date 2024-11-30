@@ -1,0 +1,56 @@
+---
+layout:     post
+title:      "2024.11.30博客更新公告---v1.1"
+author:     "admin-lyc（邮箱联系）"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 809
+    - blog
+    - update
+    - gengxin
+---
+
+> “无限进步！ -by 影视飓风”
+
+## 前言
+
+<p>809博客更新了v1.1版本，属于外观更新，本次更新内容如下：</p>
+
+## 一、对迷你关于我下的社交账号进行删减并保留github（直达托管本博客的github账号）
+
+<p>如图所示，为更新后效果</p>
+
+![迷你关于我更新（更新后效果）](/img/809blog2024.11.30gengxin-MiniAboutShejiaozhanghao.jpg)
+
+<p>更新前原效果取自HuxBlog，如图所示</p>
+
+![迷你关于我更新前（更新前效果）](/img/809blog2024.11.30gengxin-MiniAboutShejiaozhanghao（yuanxiaoguo）.jpg)
+
+## 二、对关于（非迷你关于）的中文介绍和英文介绍（这玩意需要？？？）进行更新
+
+<p>如图所示，为更新后中文介绍效果</p>
+
+![更新关于中的中文介绍](/img/809blog2024.11.30gengxin-aboutCN.jpg)
+
+<p>如图所示，为更新后英文介绍效果</p>
+
+![更新关于中的英文介绍](/img/809blog2024.11.30gengxin-aboutEN.jpg)
+
+## 未来版本预告
+
+<p>(1)新增3个聊天室（华东），此功能预计将会在v2.0版本上线</p>
+
+<p>(2)新增备用域名：809blog-fun.us.kg；809blog-ai.us.kg</p>
+
+<p>*(3)对PWA缓存逻辑进行轻微调整，方便用户快速访问博客，此改动预计将会在v2.5.9版本上线</p>
+
+<p>*(4)对CloudFlareDNS进行调整并尝试套用CloudDNS，且进行反代理DNS的设置，理论上可对中国大陆地区的用户的访问速度提升20%-30%，此改动预计将会在v3.2.1版本上线</p>
+
+> 温馨提示：在预告前面带有*号的内容，表示有极大的风险、未知性以及不确定性，可能会在版本更新过程中中断/砍掉/无限期延迟等
+
+## 署名
+
+<p>by admin-lyc（邮箱联系） 2024.11.30 15：36</p>
+
+<p id = "build"></p>

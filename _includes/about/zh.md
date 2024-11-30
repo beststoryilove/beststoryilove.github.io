@@ -62,7 +62,7 @@ Hey，我是黄玄（a.k.a. Hux, _@huxpro_），一个略懂计算机科学与�
 
 <p>2.所有上传到网盘的文件分享链接将总结在此处：</p>
 
-[实用小工具（密码：7ws6）]:https://809blog.lanzoue.com/b00wm4xcfa
-[投稿壁纸推荐（电脑）（密码:2r77）]:https://809blog.lanzoue.com/b00wm4xcgb
-[投稿壁纸推荐（手机）（密码:azf8）]:https://809blog.lanzoue.com/b00wm4xchc
-[作文投稿（密码:1ded)]:https://809blog.lanzoue.com/b00wm4xcje
+- [实用小工具](https://809blog.lanzoue.com/b00wm4xcfa)（密码：7ws6）
+- [投稿壁纸推荐（电脑）](https://809blog.lanzoue.com/b00wm4xcgb)（密码:2r77）
+- [投稿壁纸推荐（手机）](https://809blog.lanzoue.com/b00wm4xchc)（密码:azf8）
+- [作文投稿](https://809blog.lanzoue.com/b00wm4xcje)（密码:1ded)

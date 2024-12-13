@@ -30,7 +30,7 @@ tags:
 
 <p>4.本版块内的最终解释权归属于@809blog以及@悦读写社</p>
 
-[809blog](809blog.us.kg"809blog")
+[809blog](https://809blog.us.kg"809blog")
 [悦读写社（需微信内打开）](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg4Njg3NDU5OA==&scene=124#wechat_redirect"悦读写社（需微信内打开")
 
 ## 二、聚合页更新

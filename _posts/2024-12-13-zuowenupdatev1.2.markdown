@@ -39,6 +39,14 @@ tags:
 
 <p>网站直达：https://link3.cc/809blog</p>
 
+## 三、新增备用域名
+
+<p>现在你可以通过以下链接访问809blog：</p>
+
+[809blog（主域名）](https://809blog.us.kg)
+[809blog（备用域名1）](https://beiyon1.809blog.us.kg)
+[809blog（备用域名2）](https://beiyon2.809blog.us.kg)
+
 ## 未来版本预告
 
 <p>*(1)替代Link3聚合页，尝试自行搭建聚合页，此改动预计将会在v2.0版本上线</p>

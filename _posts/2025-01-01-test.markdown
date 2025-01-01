@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "test(video插入)"
+author:     "admin-lyc（邮箱联系）"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 809
+    - blog
+    - test
+---
+
+> “test”
+
+## test
+
+<video width="600" controls>
+  <source src="https://www.bilibili.com/video/BV1Ap4ZetE7P/?spm_id_from=333.337.search-card.all.click&vd_source=1ae09ce5ab551f04518761339c1fa943" type="video/mp4">
+</video>
+
+<p id = "build"></p>
+
+## 署名</p>
+
+<p>——by admin-lyc（邮箱联系）</p>

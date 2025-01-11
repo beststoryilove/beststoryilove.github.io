@@ -39,7 +39,7 @@ I studied BA, Digital Media Art at [Communication University of China](https://e
 
 ## 809blog section
 
-<p>1. This blog is based on HuxBlog as a template and uses a PWA, so when something new is posted and you can't see it, try hitting the refresh button in the bottom right corner(That's the prompt that pops up)</p>
+<p>1. This blog is based on HuxBlog as a template and uses a PWA, so when something new is posted and you can't see it, try hitting the refresh button in the bottom left corner(That's the prompt that pops up)</p>
 
 <p>2. All file sharing links uploaded to the network disk will be summarized here:</p>
 

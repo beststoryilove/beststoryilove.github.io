@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "2025.01.01博客更新公告--v1.2 新年快乐！"
+title:      "2025.01.01博客更新公告--v1.3 新年快乐！"
 author:     "admin-lyc（邮箱联系）"
 header-img: "img/post-bg-2015.jpg"
 catalog: true

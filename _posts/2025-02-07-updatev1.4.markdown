@@ -1,0 +1,146 @@
+---
+layout:     post
+title:      "2025.02.07博客更新公告--v1.2"
+author:     "admin-lyc（邮箱联系）"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 809
+    - blog
+    - update
+    - gengxin
+---
+
+> “无限进步！ -by 影视飓风”
+
+## 前言
+
+<p>809博客更新了v1.4版本，属于功能更新，本次更新内容如下：</p>
+
+## 一、更新809bog-ChatGPT
+
+<p>没错！我们搭建了一个ChatGPT供大家使用！</p>
+
+<p>效果如图：</p>
+
+![ChatGPT效果1](/img/ChatGPT1.jpg "ChatGPT效果")
+
+<p>注：为防止滥用，已设置访问密码，密码在最后一段）</p>
+
+<p>但它的美中不足的地方有：</p>
+
+<p>（1）由于API Key要钱，再加上没有免费API Key可供多人使用，因此您不可以直接使用，而是需要自行准备Key</p>
+
+<p>（2）本ChatGPT使用vercel搭建Github项目NextChat,但由于其走cloudflare线路，导致中国大陆地区访问不稳定（详情请看下图）</p>
+
+![对ChatGPTping的结果](/img/Ping-ChatGPT.jpg "ITdog Ping了一次之后的结果")
+
+<p>**不过这些问题在下文给大家准备了解决方案**</p>
+
+## 附：解决方案
+
+<p>针对（1）的解决方案</p>
+
+<p>首先你需要一个Github账号（如何注册请自行百度）</p>
+
+<p>然后访问下面任意一个提供免费Key的Github项目</p>
+
+[FREE-CHATGPT-API](https://github.com/popjane/free_chatgpt_api)
+
+[GPT-API-free](https://github.com/chatanywhere/GPT_API_free?tab=readme-ov-file)
+
+<p>这里以第一个为例（第二个同理）</p>
+
+<p>首先点击“🚀 前往领取免费APIKEY”</p>
+
+![问1解决1](/img/chatgpt-q&a1.jpg "如图")
+
+<p>接着等待授权，之后你会来到这个界面，里面有接口和Key（第二个项目没有接口，只写有Key，请自行寻找接口）</p>
+
+![问1解决2](/img/chatgpt-q&a2.jpg "如图")
+
+<p>复制给你的Key和接口，回到ChatGPT界面，点击右下角设置</p>
+
+![问1解决3](/img/chatgpt-q&a3.jpg "如图")
+
+<p>找到“自定义接口"，接着填入接口和Key，即可使用</p>
+
+![问1解决4](/img/chatgpt-q&a4.jpg "如图")
+
+<p>针对（2）的解决方案</p>
+
+<p>可惜的是，目前只能通过科学上网来缓解连接抽风的问题</p>
+
+<p>需要等待我们进行优化</p>
+
+<p>不过目前的速度也够用了（小声碎语）</p>
+
+## 两家Key所支持的模型
+
+<p>第一家：</p>
+
+<p> gpt-4o-mini（速度一般，若要体验极速回复，可购买付费API）</p>
+
+<p>gpt-3.5-turbo-0125</p>
+
+<p>gpt-3.5-turbo-1106</p>
+
+<p>gpt-3.5-turbo</p>
+
+<p>pt-3.5-turbo-16k</p>
+
+<p>net-gpt-3.5-turbo (可联网搜索模型-稳定性稍差)</p>
+
+<p>whisper-1</p>
+
+<p>dall-e-2</p>
+
+<p>text-开头系列模型，例如：text-davinci（免费版已取消text系列模型）
+
+<p>gpt-4全系列（只定期限量开放）</p>
+
+<p>付费版API支持OpenAI所有模型，包括（联网、绘画、聊天、向量、图片分析、文件分析、GPTs等）</p>
+
+<p>付费版API支持Midjourney专业绘画、Suno音乐生成、PPT生成、多种视频模型。</p>
+
+---
+
+<p>第二家：</p>
+
+<p>免费版支持gpt-3.5-turbo, embedding, gpt-4o-mini, gpt-4。其中gpt-4由于价格过高，每天限制3次调用（0点刷新）。需要更稳定快速的gpt-4请使用付费版。</p>
+
+<p>免费版gpt-4由gpt-4o提供服务，但免费版暂不支持识图。</p>
+
+<p>支持更稳定更快速的GPT4 API，GPT4体验更好，无限使用，价格低于官方，充值更便捷。</p>
+
+<p>同官网计费策略，流式问答使用tiktoken库准确计算Tokens，非流式问答直接使用官方返回Tokens用量计费。</p>
+
+<p>余额不会过期，永久有效。根据用户反馈30块钱个人中度使用gpt-4o-mini估计能用半年。</p>
+
+<p>所有的接口（包括免费版本）都保证转发自OpenAI或Azure官方接口，非peo、plus等不稳定方案或逆向方案，无水分，不掺假，保证稳定性。</p>
+
+<p>注：上述所有内容均转自原项目描述，若有内容变更请以官方为准</p>
+
+## 未来更新道路
+
+<p>众所周知，deepseek是中国的一款AI大模型，目前的最新版本也已提供deepseek模式</p>
+
+<p>但由于目前所提供的所谓免费key都是本地跑的，官方也要钱（虽然便宜就是了）</p>
+
+<p>所以未来我们会酌情考虑更新deepseek的key or 找到免费的deepseek key</p>
+
+<p>不过既然官网，app都能用，因此我们更新的概率可能性不大</p>
+
+<p>仙人指路：</p>
+
+[deepseek官网](https://https://www.deepseek.com/)
+
+[纳米AI-360旗下产品 为deepseek提供高速专线机房 默认R1](https://nami.so.360.com/)
+
+<p>密码：809blog-chatgpt</p>
+
+<p id = "build"></p>
+
+## 署名</p>
+
+<p>——by admin-lyc（邮箱联系）</p>

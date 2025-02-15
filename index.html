@@ -44,140 +44,48 @@ description: "路途总有终点站 | 来日方长"
     {% endif %}
 </ul>
 {% endif %}
+<!-- 新增音乐播放器容器 -->
+<div class="music-player">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" 
+            width="100%" height="100%"
+            src="//music.163.com/outchain/player?type=0&id=13325780681&auto=1&height=430"> 
+    </iframe>
+</div>
+ 
 <style>
-/* 主容器 */
-#netease-player {
+/* 音乐播放器样式 */
+.music-player {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 310px;
-    height: 430px;
-    border-radius: 16px;
-    background: rgba(255,255,255,0.98);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    width: 330px;
+    height: 450px;
+    border-radius: 15px;
     overflow: hidden;
-    z-index: 1000;
-    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 9999;
+    background: #fff;
 }
-
-/* 精准适配iframe */
-#netease-iframe {
-    width: 378px;  /* 原始宽度 */
-    height: 530px; /* 原始高度 */
-    transform: 
-        scale(0.82) 
-        translate(-34px, -50px); /* 精调定位 */
-    transform-origin: 0 0;
-    border: 0;
-    pointer-events: none;
-}
-
-/* 激活点击区域 */
-#netease-iframe::after {
-    content: '';
-    position: absolute;
-    top: 50px;    /* 避开顶部空白 */
-    left: 34px;
-    width: 310px;
-    height: 380px;
-    pointer-events: auto;
-    z-index: 2;
-}
-
-/* 播放列表展开优化 */
-#netease-player.expanded {
-    height: 430px;
-}
-
+ 
 /* 移动端适配 */
-@media (max-width: 768px) {
-    #netease-player {
-        width: 280px;
-        height: 400px;
-        right: 10px;
+@media screen and (max-width: 768px) {
+    .music-player {
+        width: calc(100% - 40px);
+        height: 300px;
+        right: 20px;
+        left: 20px;
         bottom: 10px;
     }
-    #netease-iframe {
-        transform: scale(0.78) translate(-32px, -48px);
-    }
 }
-
-/* 圆角保持策略 */
-#netease-player::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: inherit;
-    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08);
-    pointer-events: none;
-    z-index: 3;
+ 
+/* 防止内容遮挡（可选） */
+.post-preview:last-child {
+    margin-bottom: 500px; /* 为播放器留出空间 */
+}
+ 
+@media screen and (max-width: 768px) {
+    .post-preview:last-child {
+        margin-bottom: 350px;
+    }
 }
 </style>
-
-<div id="netease-player">
-    <iframe id="netease-iframe" 
-        src="//music.163.com/outchain/player?type=0&id=13325780681&auto=1&height=530&width=378&noborder=1">
-    </iframe>
-    <div class="player-overlay">
-        <button class="player-toggle">▶</button>
-    </div>
-</div>
-
-<script>
-// 播放器状态管理
-const musicPlayer = {
-    init() {
-        // 绑定切换按钮
-        document.querySelector('.player-toggle').addEventListener('click', () => {
-            this.togglePlayState();
-        });
-
-        // 自动恢复播放
-        window.addEventListener('load', () => {
-            if(localStorage.getItem('musicPlaying') === 'true') {
-                this.sendCommand('play');
-            }
-        });
-
-        // 状态保存
-        window.addEventListener('beforeunload', () => {
-            localStorage.setItem('musicPlaying', 
-                document.querySelector('.player-toggle').textContent === '⏸︎');
-        });
-    },
-
-    togglePlayState() {
-        const btn = document.querySelector('.player-toggle');
-        const isPlaying = btn.textContent === '⏸︎';
-        btn.textContent = isPlaying ? '▶' : '⏸︎';
-        this.sendCommand(isPlaying ? 'pause' : 'play');
-    },
-
-    sendCommand(action) {
-        const iframe = document.getElementById('netease-iframe');
-        iframe.contentWindow.postMessage({
-            command: action,
-            source: 'customPlayer'
-        }, '*');
-    }
-};
-
-// 初始化
-document.addEventListener('DOMContentLoaded', () => musicPlayer.init());
-
-// 播放列表交互处理
-window.addEventListener('message', (e) => {
-    const player = document.getElementById('netease-player');
-    if(e.data === 'listOpen') {
-        player.style.height = '430px';
-        player.classList.add('expanded');
-    }
-    if(e.data === 'listClose') {
-        player.style.height = '430px'; // 保持固定高度
-        player.classList.remove('expanded');
-    }
-});
-</script>

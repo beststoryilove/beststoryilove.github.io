@@ -44,83 +44,134 @@ description: "路途总有终点站 | 来日方长"
     {% endif %}
 </ul>
 {% endif %}
-<!-- 在index.html中添加 -->
+<!-- 修改后的CSS部分 -->
 <style>
-/* 微型播放器容器 */
-#mini-player {
+/* 右下角播放器容器 */
+#music-player {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 310px;
+    width: 360px;  /* 增大宽度以适应列表 */
     height: 90px;
     border-radius: 12px;
-    background: rgba(255,255,255,0.95);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
     z-index: 1000;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    background: rgba(255,255,255,0.96);
 }
 
-/* 悬停动效 */
-#mini-player:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+/* 播放列表展开状态 */
+#music-player.expanded {
+    height: 320px;
+    width: 360px;
 }
 
-/* 自适应缩放 */
+/* 自适应iframe */
+#music-player iframe {
+    width: 360px;
+    height: 320px;  /* 最大高度 */
+    transform: translateY(-115px) translateX(-12px) scale(1.05);
+    pointer-events: none;
+}
+
+/* 激活播放列表点击区域 */
+#music-player::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: auto;
+    z-index: 2;
+}
+
+/* 移动端适配 */
 @media (max-width: 768px) {
-    #mini-player {
-        width: 280px;
-        height: 80px;
+    #music-player {
         bottom: 10px;
         right: 10px;
+        width: 300px;
+        height: 80px;
     }
-}
-
-/* 紧凑型iframe */
-#netease-mini {
-    width: 100%;
-    height: 100%;
-    border: none;
-    transform: scale(0.8); /* 缩放播放器控件 */
-    transform-origin: 0 0;
+    #music-player.expanded {
+        height: 280px;
+        width: 300px;
+    }
+    #music-player iframe {
+        transform: translateY(-100px) translateX(-8px) scale(1.08);
+    }
 }
 </style>
 
-<div id="mini-player">
-    <iframe id="netease-mini"
-        src="//music.163.com/outchain/player?type=0&id=13325780681&auto=1&height=90">
-    </iframe>
+<!-- HTML结构修改 -->
+<div id="music-player">
+    <iframe src="//music.163.com/outchain/player?type=0&id=13325780681&auto=1&height=320&width=360"></iframe>
+    <div class="player-controls">
+        <button class="list-toggle">🎵</button>
+    </div>
 </div>
 
 <script>
-// 精简版状态记忆
-let isPlaying = localStorage.getItem('miniPlayerState') === 'playing';
-
-// 自动恢复播放
-function tryResumePlay() {
-    const iframe = document.getElementById('netease-mini');
-    iframe.onload = () => {
-        if(isPlaying) {
-            iframe.contentWindow.postMessage(JSON.stringify({
-                command: 'play',
-                playlistId: '7278637163'
-            }), '*');
+// 播放列表状态管理
+const player = {
+    isExpanded: false,
+    
+    init() {
+        // 绑定列表切换按钮
+        document.querySelector('.list-toggle').addEventListener('click', () => {
+            this.toggleList();
+        });
+        
+        // 状态记忆
+        window.addEventListener('beforeunload', () => {
+            localStorage.setItem('playerExpanded', this.isExpanded);
+        });
+        
+        // 初始化状态
+        const savedState = localStorage.getItem('playerExpanded');
+        if(savedState === 'true') this.expand();
+    },
+    
+    toggleList() {
+        this.isExpanded ? this.collapse() : this.expand();
+    },
+    
+    expand() {
+        document.getElementById('music-player').classList.add('expanded');
+        this.isExpanded = true;
+        this.adjustLayout();
+    },
+    
+    collapse() {
+        document.getElementById('music-player').classList.remove('expanded');
+        this.isExpanded = false;
+        this.adjustLayout();
+    },
+    
+    adjustLayout() {
+        // 动态调整iframe显示区域
+        const iframe = document.querySelector('#music-player iframe');
+        if(this.isExpanded) {
+            iframe.style.pointerEvents = 'auto';
+            iframe.contentWindow.postMessage('showList', '*');
+        } else {
+            iframe.style.pointerEvents = 'none';
         }
-    };
-}
-
-// 状态保存（每30秒检测）
-setInterval(() => {
-    const playBtn = document.querySelector('#mini-player .play'); 
-    // 实际需要根据播放器内部元素调整选择器
-    if(playBtn && playBtn.classList.contains('pause')) {
-        localStorage.setItem('miniPlayerState', 'playing');
-    } else {
-        localStorage.setItem('miniPlayerState', 'paused');
     }
-}, 30000);
+};
 
-// 初始化
-window.addEventListener('DOMContentLoaded', tryResumePlay);
+// 初始化播放器
+document.addEventListener('DOMContentLoaded', () => player.init());
+
+// 监听网易云内部事件
+window.addEventListener('message', (e) => {
+    if(e.data === 'listShown') {
+        player.expand();
+    }
+    if(e.data === 'listHidden') {
+        player.collapse();
+    }
+});
 </script>

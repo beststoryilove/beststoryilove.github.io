@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <div class="player">
-        <header>
-            <input type="text" id="search" placeholder="Search for a song">
-        </header>
-        <section class="playlist">
-            <!-- Playlist items will be injected here -->
-        </section>
-        <section class="lyrics">
-            <!-- Lyrics will be injected here -->
-        </section>
-        <footer>
-            <button onclick="playPrevious()">Previous</button>
-            <button onclick="togglePlay()">Play/Pause</button>
-            <button onclick="playNext()">Next</button>
-        </footer>
+    <div class="main-container">
+    <div class="search-box">
+        <input type="text" id="search" placeholder="输入歌曲名称">
+        <button onclick="triggerSearch()">🔍</button>
     </div>
+    <div class="content-wrapper">
+        <ul class="playlist">
+            <!-- 动态插入的播放列表项 -->
+        </ul>
+        <div class="lyrics-container">
+            <div class="lyrics-scroll"></div>
+        </div>
+    </div>
+    <div class="player-controls">
+        <button class="ctrl-btn" onclick="playPrevious()">⏮</button>
+        <button class="ctrl-btn" onclick="togglePlay()">▶/⏸</button>
+        <button class="ctrl-btn" onclick="playNext()">⏭</button>
+    </div>
+</div>
     <script src="script.js"></script> 
 </body>
 </html>

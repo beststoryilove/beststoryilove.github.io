@@ -39,7 +39,7 @@ tags:
 
 <p>视频送上作为离开的补偿</p>
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113977577177403&bvid=BV1gAN9euEez&cid=28308016070&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe width="800" height="450" src="//player.bilibili.com/player.html?isOutside=true&aid=113977577177403&bvid=BV1gAN9euEez&cid=28308016070&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 <p id = "build"></p>
 

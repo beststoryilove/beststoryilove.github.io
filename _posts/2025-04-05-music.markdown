@@ -1,0 +1,34 @@
+---
+layout:     post
+title:      "夜深了"
+author:     "admin-lyc（邮箱联系）"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 809
+    - blog
+    - night
+    - music
+---
+
+> “夜已深，人已静”
+
+## Q&A
+
+<p>Q：为什么这篇文章在这么《 阳 间 》的时间发？</p>
+
+<p>A：在琢磨新博客主题。
+  
+<p>Q：所以呢？？？</p>
+
+<p>A：插个iframe挂后台边听歌边琢磨。</p>
+
+## iframe部分（插的是BV1HZKAepEie）
+
+<iframe width="800" height="450" src="//player.bilibili.com/player.html?isOutside=true&aid=114000863954184&bvid=BV1HZKAepEie&cid=28384101522&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<p id = "build"></p>
+
+## 署名
+
+<p>——by admin-lyc（邮箱联系）</p>

@@ -41,6 +41,10 @@ tags:
 
 <iframe width="800" height="450" src="//player.bilibili.com/player.html?isOutside=true&aid=113977577177403&bvid=BV1gAN9euEez&cid=28308016070&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+<p>附一个自己琢磨的Deepseek-R1翻译成EN的版本</p>
+
+<iframe width="800" height="450" src="//player.bilibili.com/player.html?isOutside=true&aid=114279382515874&bvid=BV1doZRYvEpN&cid=29232662624&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p id = "build"></p>
 
 ## 署名

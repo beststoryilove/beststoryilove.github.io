@@ -66,3 +66,4 @@ Hey，我是黄玄（a.k.a. Hux, _@huxpro_），一个略懂计算机科学与�
 - [投稿壁纸推荐（电脑）](https://809blog.lanzoue.com/b00wm4xcgb)（密码:2r77）
 - [投稿壁纸推荐（手机）](https://809blog.lanzoue.com/b00wm4xchc)（密码:azf8）
 - [作文投稿](https://809blog.lanzoue.com/b00wm4xcje)（密码:1ded)
+- (2025.04.13新增)我用夸克网盘分享了「第一讲 破译密码.zip」，点击链接即可保存。打开「夸克APP」，无需下载在线播放视频，畅享原画5倍速，支持电视投屏。 链接：https://pan.quark.cn/s/31a9786e30a2 提取码：HNUu

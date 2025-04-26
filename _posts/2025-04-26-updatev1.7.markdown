@@ -24,6 +24,7 @@ tags:
 <p>建议访问项目前先看看readme.md</p>
 
 [点我直达该项目](https://github.com/beststoryilove/809blog-MusicPlayer)
+[点我直达该项目的readme.md](https://github.com/beststoryilove/809blog-MusicPlayer/blob/main/README.md)
 
 <p>项目现已开放，可访问musicplayer.809blog.dpdns.org使用</p>
 

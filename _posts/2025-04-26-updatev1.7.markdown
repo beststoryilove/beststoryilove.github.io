@@ -32,10 +32,13 @@ tags:
 
 <p>预览图</p>
 
-![预览图1](img/neteasemusicplayer-1.jpg)
-![预览图2](img/neteasemusicplayer-2.jpg)
-![预览图3](img/neteasemusicplayer-3.jpg)
-![预览图4](img/neteasemusicplayer-4.jpg)
+![预览图1](img/neteasemusicplayer-1.jpg "counting stars")
+
+![预览图2](img/neteasemusicplayer-2.jpg "八方来财")
+
+![预览图3](img/neteasemusicplayer-3.jpg "One Last Kiss × Slow Down")
+
+![预览图4](img/neteasemusicplayer-4.jpg "孤独患者")
 
 <p>特此鸣谢：GD音乐台提供开发者API；小小API提供网页背景</p>
 

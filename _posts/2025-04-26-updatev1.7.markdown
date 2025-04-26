@@ -1,0 +1,66 @@
+---
+layout:     post
+title:      "2025.04.26博客更新公告--v1.7 网易云网页音乐播放器更新！！！"
+author:     "admin-lyc（邮箱联系）"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 809
+    - blog
+    - update
+    - v1.7
+---
+
+> “deepseek,yes!!!”
+
+## 前言
+
+<p>809博客更新了v1.7版本，属于功能更新，本次更新内容如下：</p>
+
+## 一、更新网易云音乐网页播放器
+
+<p>托管项目地址：https://github.com/beststoryilove/809blog-MusicPlayer</p>
+
+<p>建议访问项目前先看看readme.md</p>
+
+[点我直达该项目](https://github.com/beststoryilove/809blog-MusicPlayer)
+
+<p>项目现已开放，可访问musicplayer.809blog.dpdns.org使用</p>
+
+[点我直达809blog-MusicPlayer](https://musicplayer.809blog.dpdns.org/)
+
+<p>预览图</p>
+
+![预览图1](img/neteasemusicplayer-1.jpg)
+![预览图2](img/neteasemusicplayer-2.jpg)
+![预览图3](img/neteasemusicplayer-3.jpg)
+![预览图4](img/neteasemusicplayer-4.jpg)
+
+<p>特此鸣谢：GD音乐台提供开发者API；小小API提供网页背景</p>
+
+[GD音乐台](https://music.gdstudio.xyz/)
+[GD Studio's Online Music Platform API](https://music-api.gdstudio.xyz/api.php)
+[小小API](https://xxapi.cn/)
+[随机4k背景图](https://xxapi.cn/doc/random4kPic)
+
+---
+
+<p>功能说明：</p>
+
+<p>目前实现的功能如下：</p>
+
+    1.音量大小
+    2.专辑图加载
+    3.进度条拖动
+    4.依靠api，可解析网易云音乐中的vip音乐
+
+<p>目前暂未实现的功能如下：</p>
+
+    1.歌词滚动
+    2.播放列表
+
+<p id = "build"></p>
+
+## 署名
+
+<p>——by admin-lyc（邮箱联系）</p>

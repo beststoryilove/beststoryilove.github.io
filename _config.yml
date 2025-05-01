@@ -2,10 +2,10 @@
 title: 809blog | 分享美好生活
 SEOTitle: 809blog | 分享美好生活
 header-img: img/home-bg.jpg
-email: xnpyx@xnpyx.us.kg
+email: admin@809blog.dpdns.org
 description: "这里是809班的班级博客，与你一起，发现更广阔的世界！"
 keyword: "809 blog"
-url: "https://809blog.us.kg" # your host, for absolute URL
+url: "https://809blog.dpdns.org" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.

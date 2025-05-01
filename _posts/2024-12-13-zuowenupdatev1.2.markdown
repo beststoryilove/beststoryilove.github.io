@@ -43,9 +43,9 @@ tags:
 
 <p>现在你可以通过以下链接访问809blog：</p>
 
-[809blog（主域名）](https://809blog.us.kg)
-[809blog（备用域名1）](https://beiyon1.809blog.us.kg)
-[809blog（备用域名2）](https://beiyon2.809blog.us.kg)
+[809blog（主域名）](https://809blog.dpdns.org)
+[809blog（备用域名1）（2025.05.01：已挂）](https://beiyon1.809blog.us.kg)
+[809blog（备用域名2）（2025.05.01：已挂）](https://beiyon2.809blog.us.kg)
 
 ## 未来版本预告
 

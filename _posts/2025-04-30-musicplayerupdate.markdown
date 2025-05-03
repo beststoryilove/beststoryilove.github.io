@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "2025.04.30 809blog-MusicPlayer"
+title:      "2025.04.30 809blog-MusicPlayer更新-v0.2"
 author:     "admin-lyc（邮箱联系）"
 header-img: "img/post-bg-2015.jpg"
 catalog: true

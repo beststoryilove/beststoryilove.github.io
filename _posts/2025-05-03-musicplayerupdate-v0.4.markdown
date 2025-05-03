@@ -21,6 +21,12 @@ tags:
 
 > "移动端：开心了"
 
+<p>本次更新针对移动端进行了UI适配，但不是在原项目进行修改</p>
+
+[点我直达移动端809blog-MusicPlayer（桌面端不可进入，不兼容）](https://musicplayer-ydd.809blog.dpdns.org/)
+
+[点我直达托管项目](https://github.com/beststoryilove/809blog-MusicPlayer-Mobile)
+
 <p>有人看到后就要问了：欸！那为什么不在原项目直接改呢？</p>
 
 <p>问得好，问就是懒（把现在的代码扔deepseek，直接洞穿64k上下文限制了）</p>
